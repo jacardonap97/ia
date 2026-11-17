@@ -1,0 +1,255 @@
+Actúa como un equipo senior compuesto por un Product Designer especializado en UX/UI, un desarrollador Frontend senior y un experto en arquitectura de productos digitales.
+Tu objetivo es diseñar y construir el maquetado de una plataforma web llamada provisionalmente **Agenda Local**, cuya finalidad es centralizar y facilitar el descubrimiento de eventos que ocurren en una ciudad.
+# 1. CONTEXTO Y PROPÓSITO DEL PRODUCTO
+Actualmente, la información sobre eventos está dispersa en diferentes plataformas, como Instagram, Facebook, LinkedIn, sitios web de organizadores y plataformas de boletería.
+Esto obliga a las personas a revisar múltiples redes sociales para descubrir qué actividades se realizarán durante la semana.
+La plataforma busca solucionar este problema mediante una agenda digital centralizada, donde cualquier persona pueda consultar los eventos disponibles en su ciudad desde un único lugar.
+La ciudad inicial será Medellín, Colombia, pero la plataforma debe estar preparada visualmente para incorporar otras ciudades en el futuro.
+El producto debe permitir que los usuarios puedan:
+- Descubrir eventos que se realizarán durante la semana.
+- Consultar eventos de hoy, mañana y el fin de semana.
+- Explorar actividades por categorías.
+- Buscar eventos por nombre, temática, lugar u organizador.
+- Filtrar eventos por fecha, categoría, ubicación y precio.
+- Consultar la información completa de un evento.
+- Acceder a la publicación original o al enlace oficial de inscripción o compra de entradas.
+- Consultar eventos gratuitos y pagos.
+- Enviar información de sus propios eventos para que sean publicados en la plataforma.
+**La propuesta de valor es sencilla: todos los planes de la ciudad, en un solo lugar.**
+# 2. IDENTIDAD VISUAL
+Utiliza obligatoriamente la siguiente paleta de colores:
+- Verde oscuro: #082D0F
+- Verde turquesa: #17B890
+- Verde grisáceo: #9DC5BB
+- Gris verdoso: #5E807F
+- Gris claro: #DEE5E5
+Distribución sugerida:
+- #DEE5E5: fondos suaves y áreas de separación.
+- #9DC5BB: superficies secundarias, etiquetas y elementos destacados.
+- #17B890: botones principales, enlaces y llamadas a la acción.
+- #5E807F: textos secundarios, iconografía y elementos de apoyo.
+- #082D0F: títulos, textos principales y elementos de alto contraste.
+Usa el verde oscuro para garantizar que los textos sean legibles y que los botones tengan contraste suficiente.
+Estilo visual:
+- Diseño moderno, limpio, atractivo y profesional.
+- Identidad urbana y cultural.
+- Apariencia de una plataforma digital real, lista para convertirse en un producto comercial.
+- Interfaz intuitiva y fácil de recorrer.
+- Tarjetas visuales con imágenes de buena calidad.
+- Bordes ligeramente redondeados.
+- Sombras sutiles.
+- Espaciado equilibrado.
+- Jerarquía tipográfica clara.
+- Microinteracciones discretas.
+- Diseño consistente en todas las secciones.
+Utiliza una tipografía moderna y legible, como Inter o Manrope.
+Evita:
+- Diseños genéricos de dashboards administrativos.
+- Exceso de gradientes.
+- Efectos de glassmorphism innecesarios.
+- Colores diferentes a la paleta proporcionada.
+- Tarjetas excesivamente grandes o recargadas.
+- Interfaces que parezcan una red social.
+La experiencia debe sentirse como una combinación entre una agenda cultural, una guía urbana y una plataforma moderna de descubrimiento de actividades.
+# 3. ESTRUCTURA GENERAL DE LA PÁGINA
+Construye una página principal completa con las siguientes secciones:
+## A. BARRA DE NAVEGACIÓN
+Crear una barra de navegación en la parte superior.
+Debe contener:
+- Logotipo o nombre de la plataforma: Agenda Local.
+- Selector de ciudad, inicialmente Medellín.
+- Inicio.
+- Explorar eventos.
+- Categorías.
+- Publicar un evento.
+- Botón destacado para explorar eventos.
+La navegación debe ser sencilla y compacta.
+En dispositivos móviles, convertirla en un menú desplegable o menú hamburguesa.
+El botón "Publicar un evento" debe tener una apariencia destacada, pero sin competir visualmente con la acción principal de descubrir eventos.
+## B. SECCIÓN HERO
+Esta es una de las secciones más importantes de la página.
+Debe captar inmediatamente la atención del visitante y comunicar el propósito de la plataforma.
+Título principal sugerido:
+"Tu ciudad tiene planes. Encuéntralos todos aquí."
+Texto secundario:
+"Conciertos, ferias, talleres, encuentros, gastronomía y mucho más. Descubre lo que está pasando en Medellín esta semana."
+Incluir:
+- Un buscador grande y visible.
+- Placeholder: "¿Qué te gustaría hacer?"
+- Selector o acceso rápido a fechas.
+- Botón de búsqueda.
+- Accesos rápidos: Hoy, Mañana y Este fin de semana.
+El hero debe contar con una composición visual atractiva, utilizando fotografías relacionadas con eventos, conciertos, actividades culturales y vida urbana.
+No utilizar imágenes de stock que parezcan desconectadas del contexto de la ciudad.
+## C. CATEGORÍAS DE EVENTOS
+Crear una sección que permita explorar eventos según su temática.
+Utilizar tarjetas pequeñas o botones visuales con iconos.
+Categorías sugeridas:
+- Música y conciertos.
+- Cultura y arte.
+- Gastronomía.
+- Tecnología e innovación.
+- Emprendimiento y negocios.
+- Educación y talleres.
+- Deportes y bienestar.
+- Ferias y mercados.
+- Vida nocturna.
+- Eventos gratuitos.
+Cada categoría debe tener una identidad visual coherente, con iconos sencillos y una etiqueta descriptiva.
+La sección debe ser fácil de recorrer en dispositivos móviles.
+## D. EVENTOS DESTACADOS DE LA SEMANA
+Crear la sección principal de descubrimiento de eventos.
+Título:
+"Lo que pasa esta semana"
+Texto secundario:
+"Los planes que no te puedes perder."
+Incluir:
+- Un indicador del rango de fechas de la semana actual.
+- Botón para retroceder una semana.
+- Botón para avanzar una semana.
+- Acceso para consultar todos los eventos.
+Diseñar tarjetas de eventos modernas y atractivas.
+Cada tarjeta debe mostrar:
+1. Imagen representativa del evento.
+2. Nombre del evento.
+3. Categoría.
+4. Fecha.
+5. Hora.
+6. Lugar o establecimiento.
+7. Sector o barrio.
+8. Precio o etiqueta "Gratis".
+9. Nombre del organizador.
+10. Botón o enlace "Ver evento".
+Las tarjetas deben tener una jerarquía visual clara.
+La imagen debe ser el elemento visual principal de cada tarjeta.
+Utilizar una etiqueta pequeña para identificar eventos gratuitos, destacados o próximos a realizarse.
+En escritorio, mostrar tres tarjetas por fila. En tabletas, dos. En móviles, una.
+Incluir ejemplos de eventos ficticios de demostración ambientados en Medellín, sin presentarlos como eventos reales.
+## E. AGENDA Y FILTROS
+Crear una sección que permita consultar y explorar todos los eventos disponibles.
+Debe incluir filtros visibles y fáciles de utilizar:
+- Fecha.
+- Categoría.
+- Precio: Gratis / Pago.
+- Ubicación o barrio.
+- Modalidad: Presencial / Virtual.
+Añadir opciones de ordenamiento:
+- Próximos eventos.
+- Más recientes publicados.
+- Más populares.
+Mostrar los resultados en una cuadrícula de tarjetas.
+Incluir un indicador del número de eventos encontrados.
+Los filtros deben funcionar visualmente y actualizar los resultados de demostración.
+En escritorio, utilizar una distribución con filtros a un lado y resultados al otro.
+En móviles, los filtros deben poder abrirse mediante un botón y mostrarse en un panel desplegable.
+## F. EVENTOS DEL FIN DE SEMANA
+Crear una sección visualmente diferenciada para destacar las actividades del próximo fin de semana.
+Título:
+"¿Ya tienes plan para el fin de semana?"
+Mostrar una selección de eventos con imágenes atractivas.
+Dar importancia a la fecha, el horario, el lugar y el precio.
+Esta sección debe transmitir descubrimiento y ayudar a que el usuario encuentre rápidamente algo para hacer.
+## G. PUBLICA TU EVENTO
+Crear una sección que invite a organizadores, empresas, establecimientos y comunidades a publicar sus actividades.
+Título:
+"¿Estás organizando un evento?"
+Texto:
+"Conecta tu evento con personas que están buscando nuevos planes en la ciudad."
+Incluir un botón destacado:
+"Publicar mi evento"
+Al hacer clic, debe abrirse una página o formulario de demostración.
+El formulario debe solicitar:
+- Nombre del evento.
+- Descripción.
+- Categoría.
+- Fecha de inicio y finalización.
+- Hora.
+- Dirección o ubicación.
+- Precio.
+- Nombre del organizador.
+- Imagen o fotografía del evento.
+- Enlace de publicación original.
+- Enlace de inscripción o compra de entradas.
+- Datos de contacto.
+El diseño debe permitir entender claramente cómo un organizador podría enviar su evento para ser incluido en la plataforma.
+No implementar un sistema real de publicación ni almacenamiento en esta primera versión.
+## H. PIE DE PÁGINA
+Crear un footer completo que incluya:
+- Logotipo y descripción de la plataforma.
+- Enlaces de navegación.
+- Categorías principales.
+- Enlace para publicar eventos.
+- Información de contacto.
+- Redes sociales.
+- Política de privacidad.
+- Términos y condiciones.
+- Copyright.
+Mantener la identidad visual y la paleta de colores.
+# 4. DETALLE DE UN EVENTO
+Diseñar también una plantilla de página individual para consultar un evento.
+Debe incluir:
+- Imagen principal.
+- Nombre del evento.
+- Categoría.
+- Fecha y horario.
+- Ubicación.
+- Precio.
+- Descripción completa.
+- Organizador.
+- Información adicional.
+- Enlace a la publicación original.
+- Botón para visitar el sitio oficial o comprar entradas.
+- Otros eventos relacionados.
+Es importante que la información de origen sea transparente: cada evento debe permitir identificar quién lo organiza y dónde fue publicado originalmente.
+# 5. FUNCIONALIDAD E INTERACCIONES
+Aunque esta primera versión es un prototipo visual, los elementos principales deben tener interacciones demostrables.
+Implementar:
+- Búsqueda visualmente funcional.
+- Filtros por categoría y fecha.
+- Filtros de eventos gratuitos y pagos.
+- Navegación entre semanas.
+- Botones de acceso a detalles.
+- Navegación entre secciones.
+- Formulario de demostración para publicar eventos.
+- Menú adaptable a móviles.
+- Estados vacíos cuando no existan resultados.
+- Indicadores visuales para eventos destacados.
+Utilizar información de demostración para representar eventos.
+No integrar APIs externas, bases de datos, autenticación ni scraping de redes sociales en esta etapa.
+No inventar que los eventos de demostración son reales ni que los datos provienen de Instagram, Facebook o LinkedIn.
+La plataforma debe estar preparada visualmente para que, en una futura etapa, se puedan incorporar diferentes fuentes de información y enlaces oficiales.
+# 6. DISEÑO RESPONSIVE
+Diseñar pensando primero en escritorio, pero garantizar una excelente experiencia en móviles y tabletas.
+Es fundamental que:
+- Las tarjetas se adapten a cada resolución.
+- El menú se transforme en navegación móvil.
+- Los filtros no ocupen demasiado espacio.
+- Los textos sean legibles.
+- Los botones tengan un tamaño cómodo para tocar.
+- Las imágenes mantengan proporciones adecuadas.
+- No exista desplazamiento horizontal innecesario.
+# 7. CRITERIOS DE CALIDAD
+Quiero un resultado de alta fidelidad visual, no un wireframe básico.
+Prioriza especialmente:
+1. Una portada atractiva que comunique el propósito de la plataforma.
+2. Una búsqueda de eventos clara y fácil de encontrar.
+3. Una sección de eventos visualmente atractiva.
+4. Una navegación sencilla.
+5. Una experiencia excelente en móviles.
+6. Una identidad visual consistente con la paleta proporcionada.
+Evita agregar funcionalidades innecesarias que distraigan de la propuesta principal.
+El resultado debe parecer el producto de una startup tecnológica real, con una identidad propia y una experiencia de usuario cuidada.
+**ENTREGABLE:**
+Construye directamente el diseño y el maquetado visual de la plataforma. No te limites a describir cómo debería verse.
+Utiliza componentes reutilizables, mantén consistencia visual entre las secciones y proporciona contenido de demostración suficiente para que la página se vea completa y realista.
+Si estás generando código, utiliza una estructura limpia, componentes reutilizables y un diseño responsive. Si estás generando únicamente diseño visual, entrega las pantallas de alta fidelidad correspondientes.
+La prioridad es conseguir una excelente primera versión de la página principal y una plantilla de detalle de evento.
+
+
+
+
+
+
+Link: 
+
+https://agendalocal.vercel.app/
